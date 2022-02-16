@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Karla:wght@300&family=Open+Sans&family=Roboto&display=swap');
+
+.landing-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(163, 117, 246, 0.507);
+    position: absolute;
+    z-index: 1000;
+    
+}
+.header h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #293264;
+}
+.start-btn{
+    background: #4D5B9E;
+border-radius: 15px;
+color: white;
+border: none;
+padding-left: 66px;
+padding-right: 66px;
+padding-top: 13px;
+padding-bottom: 14px;
+cursor: pointer;
+margin: 20px;
+font-size: 20px;
+
+}
+.start-btn:hover{
+    background-color: #313650;
+}
